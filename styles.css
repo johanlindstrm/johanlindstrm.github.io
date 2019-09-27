@@ -1,44 +1,92 @@
+/* */
 
-body{
-background-image: url("testbackground.jpg");
-background-size: 100%;
-background-repeat: no-repeat;
-height: 100%;
-margin: 0;
-padding: 0;
+body, html{
+    padding: 0;
+    margin: 0;
+    color:black;
+    border: 1px solid black;
 }
 
-header{
-display: block;
-margin: -60px auto;
-text-align: center;
-font-size: 50px;
-font-family: 'Quicksand', sans-serif;
+.background{
+    background-image: url("hero_pic.jpg");
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(3px);
+    width: 100%;
+    position: relative;
+    
+}
+
+.layer {
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    position: absolute;
 }
 
 .title{
-    text-transform: uppercase;
+    color: white;
+    font-size: 60px;
+    font-family: 'Teko', sans-serif;
+    top:10%;
+    left: 40%;
+    position: absolute;
+
+}
+/* PROJECT, MENY/LIST */
+.project{
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto Slab', serif;
+    left: 10%;
+    top:33%;
+    position: absolute;
+}
+ul{
+    list-style-type: none;
+    position: absolute;
+    width: 400px;
+    left: -30%;
 }
 
-iframe{
-display: block;
-text-decoration: none;
-margin: auto;
+li{
+    margin-top: -30px;
+    padding-top: 20px;
 }
 
-.button {
-color: red;
-text-decoration: none;
-text-align: center;
-font-size: 50px;
-margin: auto;
-width: 500px;
-height: 50px;
-display: block;
-text-transform: uppercase;
-cursor: pointer;
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
 }
-    
 a:hover{
-color:white;
+    color: red;
+}
+
+/* ABOUT ME SECTION */
+.about{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    width: 400px;
+    top:33%;
+    left: 66%;
+    font-family: 'Roboto Slab', serif;
+}
+/* NORMAL TEXT SIZE/FONT */
+.text{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+footer{
+    color: white;
+    background-color: black;
+    display: flex;
+    height: 50px;
+    width: 100%;
 }
