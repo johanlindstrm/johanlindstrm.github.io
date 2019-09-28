@@ -1,92 +1,51 @@
-/* */
-
-body, html{
-    padding: 0;
+body{
     margin: 0;
-    color:black;
-    border: 1px solid black;
+    padding: 0;
+    background: url(backgroundimg.jpg) no-repeat;
+    background-size: cover;
 }
-
-.background{
-    background-image: url("hero_pic.jpg");
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    filter: blur(3px);
-    width: 100%;
-    position: relative;
-    
+.box{
+    width: 450px;
+    background: rgb(0, 0, 0, 0.4);
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color:white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-.layer {
-    background-color: rgba(0, 0, 0, 0.7);
-    top: 0;
-    left: 10%;
-    width: 80%;
-    height: 100%;
-    position: absolute;
+.box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
-
-.title{
-    color: white;
-    font-size: 60px;
-    font-family: 'Teko', sans-serif;
-    top:10%;
-    left: 40%;
-    position: absolute;
-
-}
-/* PROJECT, MENY/LIST */
-.project{
-    color: white;
+.box h1{
     font-size: 40px;
-    font-family: 'Roboto Slab', serif;
-    left: 10%;
-    top:33%;
-    position: absolute;
+    letter-spacing: 2px;
+    font-weight: 100;
+}
+.box h5{
+    font-size: 20px;
+    font-weight: 100;
+}
+.box p{
+    text-align: justify;
 }
 ul{
-    list-style-type: none;
-    position: absolute;
-    width: 400px;
-    left: -25%;
+    margin: 0;
+    padding: 0;
 }
-
-li{
-    margin-top: -30px;
-    padding-top: 20px;
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
 }
-
-a{
+.box li a{
     color: white;
     text-decoration: none;
     font-size: 30px;
+    transition: all ease-in-out 250ms; 
 }
-a:hover{
-    color: red;
-}
-
-/* ABOUT ME SECTION */
-.about{
-    color: white;
-    font-size: 40px;
-    position: absolute;
-    width: 400px;
-    top:33%;
-    left: 66%;
-    font-family: 'Roboto Slab', serif;
-}
-/* NORMAL TEXT SIZE/FONT */
-.text{
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
-
-}
-
-footer{
-    color: white;
-    background-color: black;
-    display: flex;
-    height: 50px;
-    width: 100%;
+.box li a:hover{
+    color: #b9b9b9;
 }
