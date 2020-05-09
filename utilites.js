@@ -1,12 +1,3 @@
-//$(document).ready(function(){
-//    alert("aaasdasdsd")
-// });
-
- $(document).ready(function(){
-     $("message").fadeIn('slow', function(){
-        $("message").delay(5000).fadeOut();
-     });
- });
 
  // Array of words
 var words = ['CODER','UX DESIGNER','UI DESIGNER', 'STUDENT'];
@@ -16,7 +7,7 @@ var t = setInterval(function() {
   var randomNumber = Math.round( Math.random() * (words.length-1) );
   // Change the word in the span for a random one in the array of words
   $('#changing').html( words[ randomNumber ] );
-}, 5000);
+}, 2000);
 
 
 
