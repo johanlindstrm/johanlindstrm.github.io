@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+div{
+    background-image: url(/images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1440px;
+    width: 100%;
+}
+
+h1 {
+    font-size: 5rem;
+    color: white;
+    padding: 600px;
+    margin: auto;
+    text-align: center;
+}
